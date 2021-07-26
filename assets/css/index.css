@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    background-image: url('./../../img/cubo.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-cover {
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    background-image: url('./../../img/cubo.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.red {
+background-color:#FF735A;
+}
+
+.blue {
+    background-color: #267486;
+}
+
+.yellow {
+    background-color: #FAB452;
+}
+
+#crear-usuario button {
+    background-color: #267486;
+}
+
+#crear-usuario button:hover {
+    opacity: 0.8;
+}
+
+.salir {
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+}
+
+.salir:hover {
+    opacity: 0.8;
+}
+
+#mensaje-iniciar-sesion {
+    color: #267486;
+}
+
+#mensaje-iniciar-sesion:hover{
+    opacity: 0.8;
+}
+
+#btn-iniciar-sesion {
+    background-color: #267486;
+}
+
+#btn-iniciar-sesion button:hover {
+    opacity: 0.8;
+}
+
+#mensaje-crear-cuenta {
+    color: #267486;
+}
+
+#mensaje-crear-cuenta:hover{
+    opacity: 0.8;
+}
