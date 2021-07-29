@@ -69,7 +69,7 @@ background-color:#FF735A;
     opacity: 0.8;
 }
 
-#btn-iniciar-sesion {
+#btn-iniciar-sesion, #btn-usuario-json {
     background-color: #267486;
 }
 

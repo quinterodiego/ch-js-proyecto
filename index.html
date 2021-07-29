@@ -41,7 +41,19 @@
                                             <input type="password" id="password" name="password" placeholder="Ingrese una contraseña"  class="form-control" required>
                                         </div>
                                         <button type="submit" class="btn text-white w-100" id="btn-crear-cuenta"  onclick="CrearUsuario(event)">Crear cuenta</button>
-                                        <div class="w-100 text-center p-2"><a href="#" id="mensaje-iniciar-sesion">Iniciar Sesión</a></div>
+                                        <div class="w-100 text-center p-2">
+                                            <a href="#" id="mensaje-iniciar-sesion">Iniciar Sesión</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <hr>
+                            <form id="crear-usuario">
+                                <div class="form-row align-items-center justify-content-center">
+                                    <div class="col-md-8 p-4 text-center">
+                                        <h4>O elija un usuario (JSON)</h4>
+                                        <select class="m-2" name="selectUsuarios" id="selectUsuarios"></select>
+                                        <button type="submit" class="btn text-white w-100" id="btn-usuario-json" onclick="">Ingresar</button>
                                     </div>
                                 </div>
                             </form>

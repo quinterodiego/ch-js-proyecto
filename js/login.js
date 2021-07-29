@@ -78,12 +78,3 @@ const ValidarUsuario = (e) => {
 
     e.preventDefault();
 }
-
-$('.logo-cover ').hover(function() {
-    $(this).animate({ 
-                right: '100px'},
-                "slow")
-                .animate({ 
-                    left: '0'},
-                    "slow");
-  });
